@@ -1,6 +1,6 @@
 nose
 Flask>=0.8
 Flask-Script>=0.3.3
-webassets>=0.8
+git+https://github.com/thebbgroup/webassets.git@1dbadcff8e7322954e94ae5e229ef858fc6cbb21#egg=webassets
 PyYAML
 pyScss==1.1.5

@@ -47,8 +47,7 @@ setup(
     zip_safe=False,
     platforms='any',
     dependency_links = [
-        "https://github.com/thebbgroup/webassets.git@1dbadcff8e7322954e94ae5e229ef858fc6cbb21#egg=webassets-bbgroup"
-
+        "https://github.com/thebbgroup/webassets/archive/1dbadcff8e7322954e94ae5e229ef858fc6cbb21.zip#egg=webassets-bbgroup"
     ],
     install_requires=[
         'Flask>=0.8',

@@ -46,9 +46,13 @@ setup(
     package_dir={'': 'src'},
     zip_safe=False,
     platforms='any',
+    dependency_links = [
+        "https://github.com/thebbgroup/webassets.git@1dbadcff8e7322954e94ae5e229ef858fc6cbb21#egg=webassets-bbgroup"
+
+    ],
     install_requires=[
         'Flask>=0.8',
-        'webassets==%s' % webassets_version,
+        'webassets==bbgroup',
     ],
     classifiers=[
         'Environment :: Web Environment',
